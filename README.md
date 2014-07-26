@@ -7,6 +7,7 @@ To run:
   1. Navigate to the folder in command prompt.
   2. type 'npm install'
   3. type 'node app.js'
+  4. Hit 'http://localhost:3000/' in browser.
 
 Server Side:
 
