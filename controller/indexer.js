@@ -10,7 +10,7 @@ module.exports = function(app){
             fs.readFile('./words.txt', 'utf8', function (err, data) {
                 if (err) 
                   throw err;
-                var words = data.toString().split("\r\n");
+                var words = data.toString().split("\n");
                 self.generateIndex(words, indexedWords);
             });
         },
